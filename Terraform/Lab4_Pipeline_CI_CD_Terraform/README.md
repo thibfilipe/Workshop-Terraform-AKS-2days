@@ -24,7 +24,7 @@ De la même manière, créer 4 autres secrets GitHub représentant les 4 chaines
 
 ## Quand vont être utilisées ces informations d'authentification ?
 
-<img width='1024' src='../images/terraformworkflow-et-authentification.jpg'/>
+<img width='1024' src='../../images/terraformworkflow-et-authentification.jpg'/>
 
 ## Déclencher manuellement le workflow GiHub 
 
