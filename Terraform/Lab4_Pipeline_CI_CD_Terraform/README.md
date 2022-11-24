@@ -22,6 +22,10 @@ De la même manière, créer 4 autres secrets GitHub représentant les 4 chaines
 - **SUBSCRIPTIONID**
 - **TENANTID**
 
+## Quand vont être utilisés ces informations d'authentification ?
+
+<img width='1024' src='../images/Lab_4/terraformworkflow-et-authentification.jpg'/>
+
 ## Déclencher manuellement le workflow GiHub 
 
 Le Pipeline est dans le répertoire : **.github/workflows/Lab4_Pipeline_CI_CD_Terraform.yml**
