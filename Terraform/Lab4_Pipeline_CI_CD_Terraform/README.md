@@ -22,7 +22,7 @@ De la même manière, créer 4 autres secrets GitHub représentant les 4 chaines
 - **SUBSCRIPTIONID**
 - **TENANTID**
 
-## Quand vont être utilisés ces informations d'authentification ?
+## Quand vont être utilisées ces informations d'authentification ?
 
 <img width='1024' src='../images/Lab_4/terraformworkflow-et-authentification.jpg'/>
 
