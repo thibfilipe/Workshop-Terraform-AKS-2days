@@ -14,7 +14,7 @@ tags: #workshop #aks #github #terraform
 
 ### Après midi
 - Introduction à GitHub (Repo + Workflow)
-- [Lab 3 : simple pipeline](/Pipelines/Lab3_Simple_Pipeline/README.md]
+- [Lab 3 : simple pipeline](/Pipelines/Lab3_Simple_Pipeline/README.md)
 - [Lab 4 : pipeline CI-CD terraform](/Terraform/Lab4_Pipeline_CI_CD_Terraform/README.md)
 
 ---
