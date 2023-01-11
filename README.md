@@ -64,7 +64,9 @@ az account list -o table
 
 Récupérer l'ID de la subscription Azure puis exécuter la commande suivante :
 
-az ad sp create-for-rbac --name "votrenom-demo-githubaction2022" --role "Contributor" --scopes /subscriptions/METTRE_ICI_L_ID_DE_LA_SUBSCRIPTION -o jsonc
+az ad sp create-for-rbac --name "votrenom-demo-githubaction2022" --role "Contributor" --sdk-auth true --scopes /subscriptions/METTRE_ICI_L_ID_DE_LA_SUBSCRIPTION -o jsonc
+
+cf. https://learn.microsoft.com/en-us/cli/azure/ad/sp?view=azure-cli-latest#az-ad-sp-create-for-rbac
 
 Récupérer le output de la commande et le sauvegarder temporairement dans un fichier 
 
