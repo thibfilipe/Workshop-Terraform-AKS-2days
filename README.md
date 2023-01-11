@@ -7,36 +7,34 @@ tags: #workshop #aks #github #terraform
 ## Jour 1 
 
 ### Matin
-- Introduction à Terraform
-- <a href='https://github.com/FrenchBarbusCorp/Workshop-Terraform-AKS-2days/tree/main/Terraform/Lab1_Compte_de_Stockage'>Lab 1 : création d'un compte de stockage + containers</a>
-- Suite de la présentation Terraform (output, datasources)
-- <a href='https://github.com/FrenchBarbusCorp/Workshop-Terraform-AKS-2days/tree/main/Terraform/Lab2_VM'>Lab 2 :  création d'une VM   + utilisation du Storage Backend + utilisation </a>
-- Suite de la présentation Terraform : automatisation principe généraux CI/CD, Terraform Cloud
+- Introduction à Terraform (jusqu'à output et datasources)
+- [Lab 1 : création d'un compte de stockage + containers](/Terraform/Lab1_Compte_de_Stockage/README.md) </a>
+- [Lab 2 :  création d'une VM   + utilisation du Storage Backend + utilisation](/Terraform/Lab2_VM/README.md)
+- Question / Réponses : automatisation principe généraux CI/CD, Terraform Cloud...
 
 ### Après midi
 - Introduction à GitHub (Repo + Workflow)
-- <a href='https://github.com/FrenchBarbusCorp/Workshop-Terraform-AKS-2days/tree/main/Pipelines/Lab3_Simple_Pipeline'>Lab 3 : simple pipeline </a>
-- <a href='https://github.com/FrenchBarbusCorp/Workshop-Terraform-AKS-2days/tree/main/Terraform/Lab4_Pipeline_CI_CD_Terraform'>Lab 4 : pipeline CI-CD terraform </a>
+- [Lab 3 : simple pipeline](/Pipelines/Lab3_Simple_Pipeline/README.md]
+- [Lab 4 : pipeline CI-CD terraform](/Terraform/Lab4_Pipeline_CI_CD_Terraform/README.md)
 
 ---
 
 ## Jour 2
 ### Matin
 - Introduction aux micro services
-- Rappels sur Kubernetes
+- Introduction ou rappels sur Kubernetes
 - Introduction à Azure Kubernetes Services
-- <a href='https://github.com/FrenchBarbusCorp/Workshop-Terraform-AKS-2days/tree/main/Terraform/Lab5_Azure_Container_Registry'>Lab 5 : Déploiement Azure Container Registry </a>
-- <a href='https://github.com/FrenchBarbusCorp/Workshop-Terraform-AKS-2days/tree/main/Terraform/Lab6_Azure_Kubernetes_Service'>Lab 6 : Déploiement Azure Kubernetes Service </a>
+- [Lab 5 : Déploiement Azure Container Registry](/Terraform/Lab5_Azure_Container_Registry/README.md)
+- [Lab 6 : Déploiement Azure Kubernetes Service](/Terraform/Lab6_Azure_Kubernetes_Service/README.md)
 
 ### Après midi
 - Rappels sur les déploiements Kubernetes : (YAML, Helm) et pipelines
 - Focus/explication sur les Pipelines de Build 
-- <a href='https://github.com/FrenchBarbusCorp/Workshop-Terraform-AKS-2days/tree/main/Pipelines/Lab7_Pipeline_de_Build'>Lab 7 : Pipeline de build (CI) d'une application conteneurisée </a>
+- [Lab 7 : Pipeline de build (CI) d'une application conteneurisée](/Pipelines/Lab7_Pipeline_de_Build/README.md)
 - Focus/explication Pipeline de release
-- <a href='https://github.com/FrenchBarbusCorp/Workshop-Terraform-AKS-2days/tree/main/Pipelines/Lab8_Pipeline_de_Release'>Lab 8 : Pipeline de release d'une application dans Kubernetes </a>
-- <a href='https://github.com/FrenchBarbusCorp/Workshop-Terraform-AKS-2days/tree/main/Pipelines/Lab9_Pipeline_de_Release_Advanced'>Lab 9 : Pipeline de release d'une application dans Kubernetes Advanced (analyse manifest YML...)
-- <a href='https://github.com/FrenchBarbusCorp/Workshop-Terraform-AKS-2days/tree/main/Terraform/Lab10_Kubernetes_avec_Terraform'>Lab 10 : Déploiement dans Kubernetes avec Terraform </a>
-
+- [Lab 8 : Pipeline de release d'une application dans Kubernetes](/Pipelines/Lab8_Pipeline_de_Release/README.md)
+- [Lab 9 : Pipeline de release d'une application dans Kubernetes Advanced (analyse manifest YML...)](/Pipelines/Lab9_Pipeline_de_Release_Advanced)
+- [Lab 10 : Déploiement dans Kubernetes avec Terraform](/Terraform/Lab10_Kubernetes_avec_Terraform/README.md)
 
 ---
 ## Pré requis
