@@ -36,7 +36,7 @@ variable "vmName" {
 # az vm list-skus -l westus
 variable "vmSize" {
     type = string
-    default = "Standard_B2ms"  
+    default = "Standard_B4ms"  
 }
 
 variable "vmUser" {

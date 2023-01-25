@@ -17,6 +17,9 @@ tags: #workshop #aks #github #terraform
 - [Lab 3 : simple pipeline](/Pipelines/Lab3_Simple_Pipeline/README.md)
 - [Lab 4 : pipeline CI-CD terraform](/Terraform/Lab4_Pipeline_CI_CD_Terraform/README.md)
 
+
+<img width='800' src='/images/Workshop-aks-day-1.png'/> 
+
 ---
 
 ## Jour 2
