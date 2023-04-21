@@ -6,7 +6,7 @@ on:
 
 jobs:
 
-  Build-Terraform:
+  Plan-Terraform:
     runs-on: ubuntu-latest
 
     steps:
@@ -37,7 +37,25 @@ jobs:
         run: |
           cd ./Terraform/Lab4_Pipeline_CI_CD_Terraform
           terraform plan -var 'AzureSubscriptionID=${{ secrets.SUBSCRIPTIONID }}' -var 'AzureClientSecret=${{ secrets.CLIENTSECRET }}' -var 'AzureClientID=${{ secrets.CLIENTID }}' -var 'AzureTenandID=${{ secrets.TENANTID }}' -lock=false -out=monplan.tfplan
-              
+          
+          
+      - name: 'Upload Artifact'
+        uses: actions/upload-artifact@v3
+        with:
+          name: monplan
+          path: monplan.tfplan
+          retention-days: 1
+      
+
+  Deploy-Terraform:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download a single artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: monplan
+          
       # apply a execution plan https://www.terraform.io/cli/commands/apply      
       - name: Terraform Apply
         run: |
