@@ -49,6 +49,7 @@ jobs:
 
   Deploy-Terraform:
     runs-on: ubuntu-latest
+    needs: [Plan-Terraform]
 
     steps:
       - name: Download a single artifact
