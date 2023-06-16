@@ -27,7 +27,7 @@ jobs: # 3 jobs qui s'enchaînent à la suite : 1 analyze-code - 2 test-unitaire 
       uses: actions/checkout@v2
 
     - name: Initialize CodeQL
-      uses: github/codeql-action/init@v1 # https://github.com/github/codeql-action
+      uses: github/codeql-action/init@v2 # https://github.com/github/codeql-action
       with:
         languages: ${{ matrix.language }} # https://docs.github.com/en/actions/using-jobs/using-a-build-matrix-for-your-jobs
 
